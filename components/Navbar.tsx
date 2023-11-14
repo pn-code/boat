@@ -6,7 +6,7 @@ const links: string[] = ["main", "about", "features", "more"];
 
 export default function Navbar() {
   return (
-    <nav className="w-full fixed top-0 flex items-center gap-10 md:gap-16 md:px-8 md:py-4 bg-slate-900 text-gray-50">
+    <nav className="w-full fixed top-0 flex items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-gray-50">
       {/* Logo */}
       <header className="flex gap-2 items-center">
         <Image className="rounded-full" src={LogoImage} alt="boat logo" height={36} width={36} />
