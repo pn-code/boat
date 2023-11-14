@@ -1,11 +1,10 @@
-import Link from "next/link";
 import React from "react";
 
 const links: string[] = ["main", "about", "features", "more"];
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center gap-10 md:gap-16 md:px-8 md:py-4 bg-slate-900 text-gray-50">
+    <nav className="w-full fixed top-0 flex items-center gap-10 md:gap-16 md:px-8 md:py-4 bg-slate-900 text-gray-50">
       {/* Logo */}
       <header>
         <h1 className="text-xl font-semibold text-blue-400">LOGO</h1>
