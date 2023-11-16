@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html id="main" lang="en">
       <Navbar />
       <body className="mt-[100px]">{children}</body>
     </html>
