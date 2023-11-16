@@ -2,17 +2,31 @@ import Image from "next/image";
 import React from "react";
 import LogoImage from "@/public/assets/logo.png";
 
-const links: string[] = ["main", "about", "features", "more"];
+const links: string[] = [
+  "main",
+  "concept",
+  "design",
+  "tech",
+  "performance",
+  "development",
+  "credits",
+];
 
 export default function Navbar() {
   return (
     <nav className="w-full z-20 fixed top-0 flex items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-gray-50">
       {/* Logo */}
       <header className="flex gap-2 items-center">
-        <Image className="rounded-full" src={LogoImage} alt="boat logo" height={36} width={36} />
+        <Image
+          className="rounded-full"
+          src={LogoImage}
+          alt="boat logo"
+          height={36}
+          width={36}
+        />
         <h1 className="text-sm text-center font-semibold text-blue-400 uppercase tracking-tighter">
           HYDROGEN
-          <br/>
+          <br />
           BASED BOAT
         </h1>
       </header>

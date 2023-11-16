@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PerformanceSection() {
   return (
-    <div id="performance" className="mt-4 lg:mt-[8%]">
+    <div id="performance" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
       <header className="text-center">
         <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold lg:font-bold tracking-wider">
           Performance and Impact
