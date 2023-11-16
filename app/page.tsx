@@ -6,6 +6,7 @@ import PerformanceSection from "@/components/sections/PerformanceSection";
 import TechnologySection from "@/components/sections/TechnologySection";
 import DesignSection from "@/components/sections/DesignSection";
 import ConceptSection from "@/components/sections/ConceptSection";
+import ScrollUpButton from "@/components/ScrollUpButton";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <PerformanceSection />
       <DevelopmentSection />
       <CreditsSection />
+      <ScrollUpButton />
       <Footer />
     </main>
   );
