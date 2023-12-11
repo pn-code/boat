@@ -6,16 +6,16 @@ export default function HeroSection() {
   return (
     <div className="w-full min-h-[30vh] lg:min-h-[72vh] flex flex-col items-center justify-center relative">
       <div className="w-full flex flex-col items-center gap-1 z-10">
-        <h2 className="sm:text-xl lg:text-2xl tracking-wide font-semibold text-orange-600">
+        <p className="sm:text-xl lg:text-2xl tracking-wide font-semibold text-orange-600">
           California State University, Fullerton
-        </h2>
+        </p>
         <h1 className="text-lg sm:text-2xl lg:text-5xl font-bold tracking-wide">
           The Hydrogen-Based Boat Project
         </h1>
       </div>
-      <p className="text-sm lg:text-[16px] max-w-[300px] sm:max-w-[400px] lg:max-w-[600px] text-center mt-2 lg:mt-6 text-slate-800 tracking-wider z-10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <p className="text-[16px] max-w-[300px] sm:max-w-[400px] lg:max-w-[600px] text-center mt-2 lg:mt-6 text-slate-500 font-semibold tracking-wide z-10">
+        Revolutionizing Water Travel: Innovative Hydrogen-Powered Boat
+        Engineering
       </p>
 
       <Image
