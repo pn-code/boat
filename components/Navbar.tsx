@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import LogoImage from "@/public/assets/logo.png";
 import MobileNavbar from "./MobileNavbar";
 
 const links: string[] = [
@@ -16,13 +14,13 @@ const links: string[] = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full z-20 fixed top-0 flex justify-center items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-white">
+    <nav className="w-full h-[70px] z-20 fixed top-0 flex justify-between md:justify-center items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-white">
       {/* Logo */}
-      {/* <header className="flex gap-2 items-center">
-        <h1 className="text-lg text-center text-blue-400 tracking-wider">
+      <header className="md:hidden flex gap-2 items-center">
+        <h1 className="text-lg text-center text-white tracking-wider">
           The Hydrogen Boat
         </h1>
-      </header> */}
+      </header>
 
       {/* Navigation Links on Larger Devices*/}
       <ul className="hidden lg:flex justify-center gap-4 md:gap-12 text-[14px] tracking-widest font-semibold py-1.5 text-white">
