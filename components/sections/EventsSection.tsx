@@ -7,9 +7,9 @@ import EventImg4 from "@/public/assets/event_04.jpg";
 
 export default function EventsSection() {
   return (
-    <div id="events" className="py-[100px] lg:py-[120px]">
+    <div id="events" className="py-[100px] lg:py-[120px] bg-gradient-to-b from-[#051a35] to-[#01142b] text-white">
       <header className="text-center">
-        <h2>Events Our Team Attended</h2>
+        <h2>Events Attended</h2>
       </header>
 
       <div className="flex flex-col gap-8 md:gap-16 items-center justify-center">
