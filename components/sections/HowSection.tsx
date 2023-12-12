@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function TechnologySection() {
+export default function HowSection() {
   return (
-    <div id="tech" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
+    <div id="how" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
       <header className="text-center">
         <h2>How Does It Work?</h2>
       </header>

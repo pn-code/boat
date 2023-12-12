@@ -3,7 +3,7 @@ import CreditsSection from "@/components/sections/CreditsSection";
 import DevelopmentSection from "@/components/sections/DevelopmentSection";
 import HeroSection from "@/components/sections/HeroSection";
 import PerformanceSection from "@/components/sections/PerformanceSection";
-import TechnologySection from "@/components/sections/TechnologySection";
+import HowSection from "@/components/sections/HowSection";
 import DesignSection from "@/components/sections/DesignSection";
 import ConceptSection from "@/components/sections/ConceptSection";
 import ScrollUpButton from "@/components/ScrollUpButton";
@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <ConceptSection />
       <DesignSection />
-      <TechnologySection />
+      <HowSection />
       <PerformanceSection />
       <DevelopmentSection />
       <CreditsSection />

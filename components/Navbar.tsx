@@ -7,7 +7,7 @@ const links: string[] = [
   "main",
   "concept",
   "design",
-  "tech",
+  "how",
   "performance",
   "development",
   "credits",
