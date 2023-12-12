@@ -10,30 +10,22 @@ const links: string[] = [
   "how",
   "performance",
   "development",
-  "credits",
+  "team",
+  "events",
 ];
 
 export default function Navbar() {
   return (
-    <nav className="w-full z-20 fixed top-0 flex justify-between lg:justify-start items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-gray-50">
+    <nav className="w-full z-20 fixed top-0 flex justify-center items-center gap-10 md:gap-16 px-4 md:px-8 py-4 bg-slate-900 text-white">
       {/* Logo */}
-      <header className="flex gap-2 items-center">
-        <Image
-          className="rounded-full"
-          src={LogoImage}
-          alt="boat logo"
-          height={36}
-          width={36}
-        />
-        <h1 className="text-sm text-center font-semibold text-blue-400 uppercase tracking-tighter">
-          HYDROGEN
-          <br />
-          BASED BOAT
+      {/* <header className="flex gap-2 items-center">
+        <h1 className="text-lg text-center text-blue-400 tracking-wider">
+          The Hydrogen Boat
         </h1>
-      </header>
+      </header> */}
 
       {/* Navigation Links on Larger Devices*/}
-      <ul className="hidden lg:flex gap-4 md:gap-12 text-[13px] tracking-widest font-semibold py-1.5">
+      <ul className="hidden lg:flex justify-center gap-4 md:gap-12 text-[14px] tracking-widest font-semibold py-1.5 text-white">
         {links.map((link) => (
           <a
             className="pt-1 uppercase border-b-2 border-transparent hover:border-orange-500 duration-200 ease-linear"
@@ -46,7 +38,7 @@ export default function Navbar() {
       </ul>
 
       {/* Mobile View */}
-      <MobileNavbar links={links}/>
+      <MobileNavbar links={links} />
     </nav>
   );
 }

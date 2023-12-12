@@ -3,7 +3,7 @@ import React from "react";
 export default function DesignSection() {
   return (
     <div id="design">
-      <div className="pb-20 text-slate-100 bg-gradient-to-b from-[#01142b] to-[#01142b]/90">
+      <div className="pt-32 pb-20 text-slate-100 bg-gradient-to-b from-[#01142b] to-[#01142b]/90 ">
         <header className="text-center">
           <h2>Design and Components</h2>
         </header>
