@@ -32,7 +32,7 @@ export default function DesignSection() {
                   <span className="font-semibold tracking-wide">
                     Hydrogen Storage:{" "}
                   </span>
-                  You'll need high-pressure hydrogen storage tanks or a system
+                  You&apos;ll need high-pressure hydrogen storage tanks or a system
                   for storing cryogenic liquid hydrogen on board.
                 </p>
               </li>
@@ -61,7 +61,7 @@ export default function DesignSection() {
                   <span className="font-semibold tracking-wide">
                     High-Pressure Hydrogen Tanks:{" "}
                   </span>
-                  If you're using compressed hydrogen gas, you'll need
+                  If you&apos;re using compressed hydrogen gas, you&apos;ll need
                   high-strength, lightweight tanks that can withstand the
                   pressure.
                 </p>
@@ -183,7 +183,7 @@ export default function DesignSection() {
                   <span className="font-semibold tracking-wide">
                     Hydrodynamic Design:{" "}
                   </span>
-                  Consider the boat's shape and design to optimize hydrodynamics
+                  Consider the boat&apos;s shape and design to optimize hydrodynamics
                   for efficient movement through water
                 </p>
               </li>
@@ -230,7 +230,7 @@ export default function DesignSection() {
                   <span className="font-semibold tracking-wide">
                     Range and Efficiency:{" "}
                   </span>
-                  Evaluate the boat's range and efficiency based on the hydrogen
+                  Evaluate the boat&apos;s range and efficiency based on the hydrogen
                   storage capacity and fuel cell efficiency
                 </p>
               </li>

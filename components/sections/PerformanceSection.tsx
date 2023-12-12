@@ -25,7 +25,7 @@ export default function PerformanceSection() {
             <h3 className="font-semibold tracking-wide">Run Time: </h3>
             <p className="mt-4 mb-12">
               Electric RC boats usually have run times in the range of 10 to 30
-              minutes, depending on the battery capacity and the boat's speed.
+              minutes, depending on the battery capacity and the boat&apos;s speed.
               Gas or nitro boats may have longer run times but may require
               refueling.
             </p>
@@ -42,7 +42,7 @@ export default function PerformanceSection() {
           <li>
             <h3 className="font-semibold tracking-wide">Hull Design:</h3>
             <p className="mt-4 mb-12">
-              The hull design plays a crucial role in the boat's performance.
+              The hull design plays a crucial role in the boat&apos;s performance.
               Different hull types, such as monohull, catamaran, or hydroplane,
               affect stability, maneuverability, and speed.
             </p>
@@ -53,7 +53,7 @@ export default function PerformanceSection() {
             </h3>
             <p className="mt-4 mb-12">
               The quality and features of the remote control system can impact
-              the boat's responsiveness and control. Higher-end systems may
+              the boat&apos;s responsiveness and control. Higher-end systems may
               offer more channels, allowing for additional functions like
               variable speed control and servo-operated features.
             </p>
