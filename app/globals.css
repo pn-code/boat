@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+p {
+  @apply text-[15px] md:text-[18px] text-left mt-4 sm:mt-6 lg:mt-10 tracking-wide max-w-[900px] lg:min-w-[900px];
+}
+
+h2 {
+  @apply text-xl md:text-3xl font-semibold lg:font-bold tracking-wider;
+}
+
+h3 {
+  @apply text-[16px] md:text-[20px] font-semibold text-center text-slate-700 mt-4 tracking-wider;
 }

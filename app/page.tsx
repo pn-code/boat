@@ -10,7 +10,7 @@ import ScrollUpButton from "@/components/ScrollUpButton";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-8 p-4">
+    <main className="flex flex-col gap-8">
       <HeroSection />
       <ConceptSection />
       <DesignSection />
