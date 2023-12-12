@@ -12,7 +12,7 @@ export default function TeamSection() {
         </header>
 
         <div className="flex flex-col items-center mt-4 md:mt-8">
-          <div className="relative w-[900px] h-[600px]">
+          <div className="relative w-full h-[300px] md:w-[900px] md:h-[700px]">
             <Image
               className="object-contain rounded-md"
               src={TeamImg}
