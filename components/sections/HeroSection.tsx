@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <div className="w-full min-h-[30vh] lg:min-h-[72vh] flex flex-col items-center justify-center relative">
       <div className="w-full flex flex-col items-center gap-1 z-10">
-        <p className="sm:text-xl lg:text-2xl tracking-wide font-semibold text-orange-600">
+        <p className="text-center sm:text-xl lg:text-2xl tracking-wide font-semibold text-orange-600">
           California State University, Fullerton
         </p>
         <h1 className="text-lg sm:text-2xl lg:text-5xl font-bold tracking-wide">
