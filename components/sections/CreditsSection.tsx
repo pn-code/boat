@@ -9,7 +9,7 @@ import EventImg4 from "@/public/assets/event_04.png";
 
 export default function CreditsSection() {
   return (
-    <div id="credits" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
+    <div id="credits" className="py-[100px] lg:py-[120px]">
       <header className="text-center">
         <h2>Our Team</h2>
       </header>
@@ -32,7 +32,7 @@ export default function CreditsSection() {
         <div className="flex flex-col text-center">
           <Image src={FacultyAdvisor} alt="Faculty Advisor" />
           <span className="text-sm font-semibold mt-2">Faculty Advisor</span>
-          <span className="text-sm font-semibold">Name here.</span>
+          <span className="text-sm font-semibold">Sagil James</span>
         </div>
       </div>
 

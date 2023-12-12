@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HowSection() {
   return (
-    <div id="how" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
+    <div id="how" className="py-[100px] lg:py-[200px] bg-[#0d3057] text-white">
       <header className="text-center">
         <h2>How Does It Work?</h2>
       </header>

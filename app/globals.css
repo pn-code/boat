@@ -15,5 +15,14 @@ h2 {
 }
 
 h3 {
-  @apply text-[16px] md:text-[20px] font-semibold text-center text-slate-700 mt-4 tracking-wider;
+  @apply text-[16px] md:text-[20px] font-semibold text-center text-orange-400 mt-4 tracking-wider;
+}
+
+#hero {
+  background-image: url("../public/assets/bg_boat.jpg");
+  background-position: 60%;
+}
+
+#design {
+  background-image: url("../public/assets/bg_waters.jpg");
 }

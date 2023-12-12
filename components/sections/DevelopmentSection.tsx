@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DevelopmentSection() {
   return (
-    <div id="development" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
+    <div id="development" className="py-[100px] lg:py-[200px] bg-[#081555] text-white">
       <header className="text-center">
         <h2>
           Our Development Process

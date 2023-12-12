@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PerformanceSection() {
   return (
-    <div id="performance" className="mt-4 lg:mt-[12%] pt-[100px] lg:pt-[200px]">
+    <div id="performance" className="py-[100px] lg:py-[200px]">
       <header className="text-center">
         <h2>
           Performance Goals

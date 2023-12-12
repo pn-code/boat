@@ -36,7 +36,7 @@ export default function Navbar() {
       <ul className="hidden lg:flex gap-4 md:gap-12 text-[13px] tracking-widest font-semibold py-1.5">
         {links.map((link) => (
           <a
-            className="pt-1 uppercase border-b-2 border-transparent hover:border-blue-200 duration-200 ease-linear"
+            className="pt-1 uppercase border-b-2 border-transparent hover:border-orange-500 duration-200 ease-linear"
             key={link}
             href={`#${link}`}
           >
