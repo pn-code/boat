@@ -3,7 +3,7 @@ import React from "react";
 export default function HeroSection() {
   return (
     <div id="hero">
-      <div className="w-full min-h-[30vh] lg:min-h-[100vh] md:pb-[300px] flex flex-col items-center relative bg-gradient-to-b from-[#01142b]/[20%] to-[#01142b]">
+      <div className="w-full min-h-[70vh] lg:min-h-[100vh] md:pb-[300px] flex flex-col items-center relative bg-gradient-to-b from-[#01142b]/[30%] to-[#01142b]">
         <div className="w-full flex flex-col items-center gap-1 z-10 mt-20 md:mt-[16%]">
           <p className="text-center sm:text-xl lg:text-2xl tracking-wide font-semibold text-orange-400">
             California State University, Fullerton
