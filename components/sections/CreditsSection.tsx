@@ -16,10 +16,10 @@ export default function CreditsSection() {
 
       <div className="flex flex-col items-center mt-4 md:mt-8">
         <Image src={TeamImg} alt="team" />
-        <span className="mt-4 font-semibold text-slate-800">
+        <span className="mt-3 font-semibold text-slate-600 text-sm">
           Starting from Left to Right / Top to Bottom :
         </span>
-        <p className="font-semibold m-4 text-[15px]">
+        <p className="font-semibold my-4 px-5 text-[15px]">
           Bryan Garcia, Matt Lindwall, Alex Garcia, Andrea Minero, Jose Reyes,
           Jerry Pratanavanich, Christian Dominquez, Davis Tran, and Bruno Gamboa
         </p>
@@ -27,7 +27,7 @@ export default function CreditsSection() {
 
       <h2 className="text-center mt-16 mb-8">Our Faculty Members</h2>
 
-      <div className="flex gap-4 justify-center">
+      <div className="flex gap-4 items-center flex-col sm:flex-row sm:justify-center sm:items-start">
         {/* Individual Image with caption */}
         <div className="flex flex-col text-center">
           <Image src={FacultyAdvisor} alt="Faculty Advisor" />
