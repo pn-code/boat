@@ -8,7 +8,7 @@ html {
 }
 
 p {
-  @apply px-5 md:p-0 text-[15px] md:text-[18px] text-left mt-4 sm:mt-6 lg:mt-10 tracking-wide max-w-[900px] lg:min-w-[900px];
+  @apply px-5 text-[15px] md:text-[18px] text-left mt-4 sm:mt-6 lg:mt-10 tracking-wide max-w-[900px] lg:min-w-[900px];
 }
 
 h2 {
