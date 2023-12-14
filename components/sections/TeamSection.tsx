@@ -12,7 +12,7 @@ export default function TeamSection() {
         </header>
 
         <div className="flex flex-col items-center mt-4 md:mt-12 mb-12">
-          <div className="relative w-full h-[280px] md:w-[900px] md:h-[640px]">
+          <div className="relative w-full h-[280px] md:w-[900px] md:h-[600px]">
             <Image
               className="object-contain rounded-md"
               src={TeamImg}
@@ -21,17 +21,17 @@ export default function TeamSection() {
             />
           </div>
 
-          <span className="text-orange-600 text-sm tracking-wide font-semibold">
+          <p className="text-orange-600 tracking-tight font-semibold py-0 text-left md:text-center w-full">
             Starting from Left to Right / Top to Bottom:
-          </span>
-          <p className="my-4 px-5 text-[14px] tracking-tight font-semibold max-w-[940px]">
+          </p>
+          <p className="my-4 tracking-tight font-semibold w-full">
             Bryan Garcia, Matt Lindwall, Alex Garcia, Andrea Minero, Jose Reyes,
             Jerry Pratanavanich, Christian Dominquez, Davis Tran, and Bruno
             Gamboa
           </p>
         </div>
 
-        <h2 className="text-center mb-8 md:mb-20">Our Faculty Members</h2>
+        <h2 className="text-center md:mt-[120px] mt-[60px] mb-8 md:mb-20">Our Faculty Members</h2>
         <div className="flex gap-4 items-center flex-col sm:flex-row sm:justify-center sm:items-start pb-8">
           {/* Individual Image with caption */}
           <div className="flex flex-col text-center">
@@ -40,8 +40,8 @@ export default function TeamSection() {
               src={FacultyAdvisor}
               alt="Faculty Advisor"
             />
-            <span className="text-sm font-semibold mt-2 text-orange-600">Faculty Advisor</span>
-            <span className="text-sm font-semibold">Sagil James</span>
+            <span className="font-semibold mt-2 text-orange-600">Faculty Advisor</span>
+            <span className="font-semibold">Sagil James</span>
           </div>
         </div>
       </div>
