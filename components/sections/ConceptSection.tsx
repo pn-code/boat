@@ -5,13 +5,13 @@ export default function ConceptSection() {
     <>
       <div
         id="concept"
-        className="py-[100px] lg:py-[200px] bg-[#01142b] text-slate-100"
+        className="py-[60px] lg:py-[200px] bg-[#01142b] text-slate-100"
       >
         <header className="text-center">
           <h2>Concept and Purpose</h2>
         </header>
 
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center mt-8">
           <p>
             The Hydrogen-Powered RC Boat concept envisions a cutting-edge
             remote-controlled watercraft that operates using hydrogen fuel cells

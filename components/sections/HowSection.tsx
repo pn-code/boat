@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HowSection() {
   return (
-    <div id="how" className="py-[100px] lg:py-[120px] bg-[#0d3057] text-white">
+    <div id="how" className="py-[60px] lg:py-[120px] bg-[#0a2442] text-white">
       <header className="text-center">
         <h2>How Does It Work?</h2>
       </header>
@@ -148,9 +148,8 @@ export default function HowSection() {
           </p>
         </div>
 
-        <div>
+        <div className="mt-16">
           <h3>Key Points: </h3>
-
           <ul>
             <li>
               <p>
