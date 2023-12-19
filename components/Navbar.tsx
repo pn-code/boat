@@ -16,7 +16,7 @@ const links: string[] = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-[70px] z-20 fixed top-0 flex md:justify-center justify-between items-center gap-4 lg:gap-12 px-5 lg:px-8 py-4 bg-slate-900 text-white">
+    <nav className="w-full h-[70px] z-20 fixed top-0 flex lg:justify-center justify-between items-center gap-4 lg:gap-12 px-5 lg:px-8 py-4 bg-slate-900 text-white">
       {/* Logo */}
       <header className="flex hover:scale-105 ease-linear duration-100">
         <a href="/">

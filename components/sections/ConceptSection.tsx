@@ -5,7 +5,7 @@ export default function ConceptSection() {
     <>
       <div
         id="concept"
-        className="py-[60px] lg:py-[200px] bg-[#01142b] text-slate-100"
+        className="py-[80px] lg:py-[200px] bg-[#01142b] text-slate-100"
       >
         <header className="text-center">
           <h2>Concept and Purpose</h2>
