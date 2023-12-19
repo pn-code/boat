@@ -14,16 +14,14 @@ export default function TeamSection() {
         </AnimateOnScrollContainer>
 
         <div className="flex flex-col items-center mt-4 md:mt-12 pb-12">
-          <AnimateOnScrollContainer>
-            <div className="relative w-full h-[280px] lg:w-[900px] lg:h-[600px]">
-              <Image
-                className="object-contain rounded-md"
-                src={TeamImg}
-                alt="team"
-                fill={true}
-              />
-            </div>
-          </AnimateOnScrollContainer>
+          <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
+            <Image
+              className="object-contain rounded-md"
+              src={TeamImg}
+              alt="team"
+              fill={true}
+            />
+          </div>
 
           <AnimateOnScrollContainer>
             <p className="text-orange-600 tracking-tight font-semibold py-0 text-left md:text-center w-full">
