@@ -15,7 +15,7 @@ export default function ConceptSection() {
         </AnimateOnScrollContainer>
 
         <div className="w-full flex flex-col justify-center items-center mt-8 gap-4">
-          <p className="text-2xl tracking-tight">
+          <p className="text-xl md:text-2xl tracking-tight">
             <AnimateOnScrollContainer>
               Envision a cutting-edge remote-controlled watercraft that operates
               using
@@ -31,7 +31,7 @@ export default function ConceptSection() {
             </AnimateOnScrollContainer>
           </p>
 
-          <p className="text-2xl tracking-tight">
+          <p className="text-xl md:text-2xl tracking-tight">
             <AnimateOnScrollContainer>
               <span className="text-orange-400 font-semibold">
                 By integrating advanced technology
@@ -44,7 +44,7 @@ export default function ConceptSection() {
             </AnimateOnScrollContainer>
           </p>
 
-          <p className="text-2xl tracking-tight">
+          <p className="text-xl md:text-2xl tracking-tight">
             <AnimateOnScrollContainer>
               The Hydrogen-Powered RC Boat concept not only offers a{" "}
               <span className="text-orange-400 font-semibold">
