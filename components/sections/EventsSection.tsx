@@ -7,7 +7,10 @@ import EventImg4 from "@/public/assets/event_04.jpg";
 
 export default function EventsSection() {
   return (
-    <div id="events" className="py-[60px] lg:py-[120px] bg-gradient-to-b from-[#051a35] to-[#01142b] text-white">
+    <div
+      id="events"
+      className="py-[60px] lg:py-[120px] bg-gradient-to-b from-[#051a35] to-[#01142b] text-white"
+    >
       <header className="text-center">
         <h2>Events Attended</h2>
       </header>
@@ -15,7 +18,7 @@ export default function EventsSection() {
       <div className="flex flex-col gap-8 md:gap-16 items-center justify-center">
         {/* Individual Image with caption */}
         <div className="flex flex-col text-center items-center mt-8">
-          <div className="relative w-full h-[300px] md:w-[900px] md:h-[700px]">
+          <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
             <Image
               className="object-contain"
               fill
@@ -30,7 +33,7 @@ export default function EventsSection() {
         </div>
 
         <div className="flex flex-col text-center items-center">
-          <div className="relative w-full h-[300px] md:w-[900px] md:h-[580px]">
+          <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
             <Image
               className="object-contain"
               fill
@@ -47,7 +50,7 @@ export default function EventsSection() {
         </div>
 
         <div className="flex flex-col text-center items-center">
-          <div className="relative w-full h-[300px] md:w-[900px] md:h-[700px]">
+          <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
             <Image
               className="object-contain"
               fill
@@ -62,7 +65,7 @@ export default function EventsSection() {
         </div>
 
         <div className="flex flex-col text-center items-center">
-          <div className="relative w-full h-[300px] md:w-[900px] md:h-[630px]">
+          <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
             <Image
               className="object-contain"
               fill
