@@ -1,5 +1,7 @@
 import React from "react";
 import MobileNavbar from "./MobileNavbar";
+import Image from "next/image";
+import Logo from "@/public/assets/logo.png";
 
 const links: string[] = [
   "main",
@@ -14,12 +16,12 @@ const links: string[] = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-[70px] z-20 fixed top-0 flex justify-between lg:justify-center items-center gap-10 lg:gap-16 px-5 lg:px-8 py-4 bg-slate-900 text-white">
+    <nav className="w-full h-[70px] z-20 fixed top-0 flex md:justify-center justify-between items-center gap-4 lg:gap-12 px-5 lg:px-8 py-4 bg-slate-900 text-white">
       {/* Logo */}
-      <header className="lg:hidden flex gap-2 items-center">
-        <h1 className="text-lg text-center text-white tracking-wider">
-          The Hydrogen Boat
-        </h1>
+      <header className="flex hover:scale-105 ease-linear duration-100">
+        <a href="/">
+          <Image className="rounded-md" src={Logo} width={200} height={100} alt="Titan Green" />
+        </a>
       </header>
 
       {/* Navigation Links on Larger Devices*/}
