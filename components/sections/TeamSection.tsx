@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import TeamImg from "@/public/assets/team.jpg";
-import FacultyAdvisor from "@/public/assets/faculty_01.png";
 
 export default function TeamSection() {
   return (
@@ -29,20 +28,6 @@ export default function TeamSection() {
             Jerry Pratanavanich, Christian Dominquez, Davis Tran, and Bruno
             Gamboa
           </p>
-        </div>
-
-        <h2 className="text-center md:mt-[120px] mt-[60px] mb-8 md:mb-20">Our Faculty Members</h2>
-        <div className="flex gap-4 items-center flex-col sm:flex-row sm:justify-center sm:items-start pb-8">
-          {/* Individual Image with caption */}
-          <div className="flex flex-col text-center">
-            <Image
-              className="rounded-md"
-              src={FacultyAdvisor}
-              alt="Faculty Advisor"
-            />
-            <span className="font-semibold mt-2 text-orange-600">Faculty Advisor</span>
-            <span className="font-semibold">Sagil James</span>
-          </div>
         </div>
       </div>
     </div>
