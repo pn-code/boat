@@ -6,7 +6,7 @@ import AnimateOnScrollContainer from "../ui/AnimateOnScrollContainer";
 export default function TeamSection() {
   return (
     <div id="team">
-      <div className="pt-[60px] md:py-[100px] bg-slate-100">
+      <div className="pt-[60px] md:py-[100px] bg-slate-200/60">
         <AnimateOnScrollContainer>
           <header className="text-center md:mb-16">
             <h2>Meet Our Team</h2>

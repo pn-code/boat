@@ -3,7 +3,10 @@ import AnimateOnScrollContainer from "../ui/AnimateOnScrollContainer";
 
 export default function PerformanceSection() {
   return (
-    <div id="performance" className="py-[60px] lg:py-[120px]">
+    <div
+      id="performance"
+      className="py-[60px] lg:py-[120px] bg-blue-600 text-white"
+    >
       <AnimateOnScrollContainer>
         <header className="text-center">
           <h2>Performance Goals</h2>

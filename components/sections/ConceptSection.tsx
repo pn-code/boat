@@ -14,7 +14,7 @@ export default function ConceptSection() {
           </header>
         </AnimateOnScrollContainer>
 
-        <div className="w-full flex flex-col justify-center items-center mt-8 gap-8">
+        <div className="w-full flex flex-col justify-center items-center mt-8 gap-4">
           <p className="text-2xl tracking-tight">
             <AnimateOnScrollContainer>
               Envision a cutting-edge remote-controlled watercraft that operates
@@ -24,7 +24,7 @@ export default function ConceptSection() {
                 hydrogen fuel cells
               </span>{" "}
               as a
-              <span className="text-green-400 font-semibold">
+              <span className="text-blue-400 font-semibold">
                 {" "}
                 clean and efficient power source.
               </span>
@@ -37,10 +37,25 @@ export default function ConceptSection() {
                 By integrating advanced technology
               </span>{" "}
               to harness the potential of hydrogen, a renewable energy carrier,{" "}
-              <span className="text-green-400 font-semibold">
+              <span className="text-blue-400 font-semibold">
                 we can create the capacity for propulsion using renewable
                 resources.
               </span>
+            </AnimateOnScrollContainer>
+          </p>
+
+          <p className="text-2xl tracking-tight">
+            <AnimateOnScrollContainer>
+              The Hydrogen-Powered RC Boat concept not only offers a{" "}
+              <span className="text-orange-400 font-semibold">
+                thrilling recreational experience
+              </span>{" "}
+              but also{" "}
+              <span className="text-blue-400 font-semibold">
+                promotes environmentally conscious practices
+              </span>{" "}
+              by showcasing the potential of hydrogen as a clean energy solution
+              for marine applications.
             </AnimateOnScrollContainer>
           </p>
         </div>

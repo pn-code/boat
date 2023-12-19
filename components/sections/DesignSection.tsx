@@ -11,6 +11,60 @@ export default function DesignSection() {
           </header>
         </AnimateOnScrollContainer>
 
+        <div className="flex flex-col items-center justify-center">
+          <p>
+            The{" "}
+            <span className="text-orange-400 font-semibold">
+              key components{" "}
+            </span>{" "}
+            of our design include{" "}
+            <span className="italic">
+              a compact hydrogen fuel cell system, lightweight materials for the
+              hull, and a sophisticated control system.
+            </span>
+          </p>
+
+          <AnimateOnScrollContainer>
+            <p>
+              The{" "}
+              <span className="text-blue-400 font-semibold">
+                hydrogen fuel cell system
+              </span>{" "}
+              comprises a proton exchange membrane (PEM) fuel cell stack, a
+              hydrogen storage tank, and an onboard converter to generate
+              electricity.
+              <br />
+              <br />
+              The{" "}
+              <span className="text-blue-400 font-semibold">
+                fuel cell stack
+              </span>{" "}
+              efficiently converts hydrogen into electrical energy, emitting
+              only water as a byproduct.
+              <br />
+              <br />
+              The{" "}
+              <span className="text-blue-400 font-semibold">
+                lightweight hull
+              </span>{" "}
+              is constructed from durable and eco-friendly materials to enhance
+              buoyancy and speed. Additionally, the boat features a streamlined
+              and aerodynamic design to optimize energy efficiency.
+            </p>
+          </AnimateOnScrollContainer>
+
+          <AnimateOnScrollContainer>
+            <p>
+              The{" "}
+              <span className="text-blue-400 font-semibold">
+                control system
+              </span>{" "}
+              is equipped with a user-friendly remote interface, allowing
+              enthusiasts to navigate the RC boat with precision.
+            </p>
+          </AnimateOnScrollContainer>
+        </div>
+
         <ul>
           <AnimateOnScrollContainer>
             <li className="mt-8 mb-16">
@@ -21,7 +75,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Fuel Cell Stack:{" "}
                       </span>
                       This is the core component that converts hydrogen and
@@ -32,7 +86,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Hydrogen Storage:{" "}
                       </span>
                       You&apos;ll need high-pressure hydrogen storage tanks or a
@@ -41,7 +95,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Oxygen Supply (Testing is Required):{" "}
                       </span>
                       The fuel cell requires oxygen, which can be obtained from
@@ -63,7 +117,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         High-Pressure Hydrogen Tanks:{" "}
                       </span>
                       If you&apos;re using compressed hydrogen gas, you&apos;ll
@@ -73,7 +127,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Hydrogen Sensors (Optional):{" "}
                       </span>
                       Install sensors to detect leaks and ensure safety.
@@ -93,7 +147,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Power Management System:{" "}
                       </span>
                       This system manages the electricity generated by the fuel
@@ -103,7 +157,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Voltage Regulators and Inverters:{" "}
                       </span>
                       To ensure a stable power supply to the electric motor and
@@ -124,7 +178,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Electric Motor:{" "}
                       </span>
                       Choose a suitable electric motor for marine applications.
@@ -133,7 +187,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Propeller System:{" "}
                       </span>
                       Match the propeller to the motor and boat size for optimal
@@ -142,7 +196,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Battery System (Optional):{" "}
                       </span>
                       Include a small battery system to provide additional power
@@ -163,7 +217,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Fuel Cell Cooling:{" "}
                       </span>
                       Implement a cooling system for the fuel cell stack to
@@ -172,7 +226,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Electric Motor Cooling:{" "}
                       </span>
                       Ensure the electric motor is properly cooled to prevent
@@ -193,7 +247,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Hydrodynamic Design:{" "}
                       </span>
                       Consider the boat&apos;s shape and design to optimize
@@ -202,7 +256,7 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p>
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Weight Distribution:{" "}
                       </span>
                       Distribute the weight of the hydrogen storage, fuel cell,
@@ -223,7 +277,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Hydrogen Refueling Station:{" "}
                       </span>
                       Consider the availability of hydrogen refueling
@@ -245,7 +299,7 @@ export default function DesignSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Range and Efficiency:{" "}
                       </span>
                       Evaluate the boat&apos;s range and efficiency based on the
@@ -254,11 +308,31 @@ export default function DesignSection() {
                   </li>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Maintenance:{" "}
                       </span>
                       Consider the maintenance requirements for the fuel cell
                       system and other components.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="mt-5">
+                      <span className="font-semibold tracking-tight text-blue-400">
+                        Data Collection:{" "}
+                      </span>
+                      Incorporate real-time data feedback on hydrogen levels,
+                      battery status, and performance metrics enhances the user
+                      experience.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="mt-5">
+                      <span className="font-semibold tracking-tight text-blue-400">
+                        Safety Measures:{" "}
+                      </span>
+                      Include automatic shut-off in the event of malfunctions or
+                      low hydrogen levels, are integrated to ensure a secure and
+                      reliable operation.
                     </p>
                   </li>
                 </ul>

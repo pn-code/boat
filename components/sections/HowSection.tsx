@@ -27,7 +27,7 @@ export default function HowSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Electrolyzer:{" "}
                       </span>
                       The core component is the electrolyzer, which consists of
@@ -51,7 +51,7 @@ export default function HowSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Anode Reaction:{" "}
                       </span>
                       At the anode (negative electrode), water (H₂O) is oxidized
@@ -60,7 +60,7 @@ export default function HowSection() {
                   </li>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Cathode Reaction:{" "}
                       </span>
                       At the cathode (positive electrode), protons (H⁺) and
@@ -82,7 +82,10 @@ export default function HowSection() {
                   <li>
                     <p className="mt-5">
                       The
-                      <span className="font-semibold tracking-wide"> PEM </span>
+                      <span className="font-semibold tracking-tight text-blue-400">
+                        {" "}
+                        PEM{" "}
+                      </span>
                       plays a crucial role in this process. It allows only
                       protons (H⁺) to pass through while blocking the passage of
                       electrons. This separation of charge maintains an electric
@@ -103,7 +106,7 @@ export default function HowSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         An external power source{" "}
                       </span>
                       (usually a DC power supply) provides the necessary
@@ -124,11 +127,11 @@ export default function HowSection() {
                 <ul>
                   <li>
                     <p className="mt-5">
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         Hydrogen gas{" "}
                       </span>
                       is produced at the cathode, and{" "}
-                      <span className="font-semibold tracking-wide">
+                      <span className="font-semibold tracking-tight text-blue-400">
                         oxygen gas{" "}
                       </span>
                       is produced at the anode.
@@ -176,34 +179,31 @@ export default function HowSection() {
         <div className="mt-16">
           <AnimateOnScrollContainer>
             <h3>Key Points: </h3>
-          </AnimateOnScrollContainer>
-          <ul>
-            <AnimateOnScrollContainer>
+
+            <ul>
               <li>
                 <p>
-                  <span className="font-semibold tracking-wide">
+                  <span className="font-semibold tracking-tight text-blue-400">
                     Efficiency:{" "}
                   </span>
                   PEM electrolysis is known for its relatively high efficiency,
                   especially at partial loads and rapid response times.
                 </p>
               </li>
-            </AnimateOnScrollContainer>
-            <AnimateOnScrollContainer>
+
               <li>
                 <p>
-                  <span className="font-semibold tracking-wide">
+                  <span className="font-semibold tracking-tight text-blue-400">
                     High Purity:{" "}
                   </span>
                   The produced hydrogen is typically of high purity, suitable
                   for various applications.
                 </p>
               </li>
-            </AnimateOnScrollContainer>
-            <AnimateOnScrollContainer>
+
               <li>
                 <p>
-                  <span className="font-semibold tracking-wide">
+                  <span className="font-semibold tracking-tight text-blue-400">
                     Modularity:{" "}
                   </span>
                   PEM electrolyzers are often designed with modular units,
@@ -211,11 +211,10 @@ export default function HowSection() {
                   applications.
                 </p>
               </li>
-            </AnimateOnScrollContainer>
-            <AnimateOnScrollContainer>
+
               <li>
                 <p>
-                  <span className="font-semibold tracking-wide">
+                  <span className="font-semibold tracking-tight text-blue-400">
                     Fast Response:{" "}
                   </span>
                   PEM electrolyzers can quickly respond to changes in electrical
@@ -223,8 +222,8 @@ export default function HowSection() {
                   sources like wind or solar.
                 </p>
               </li>
-            </AnimateOnScrollContainer>
-          </ul>
+            </ul>
+          </AnimateOnScrollContainer>
         </div>
       </div>
     </div>
