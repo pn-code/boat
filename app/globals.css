@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -26,4 +26,15 @@ h3 {
 
 #design {
   background-image: url("../public/assets/bg_waters.jpg");
+}
+
+.animate-scroll-hidden {
+  opacity: 0;
+  filter: blur(5px);
+}
+
+.animate-scroll-show {
+  opacity: 1;
+  filter: blur(0);
+  transition: all .5s linear;
 }

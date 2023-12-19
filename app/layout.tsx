@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hydrogen Based Boat | CSUF",
+  title: "Titan Green",
   description:
-    "Hydrogen Based Boat Design created by the engineer students at California State University, Fullerton",
+    "Titan Green presents the Hydrogen Boat design created by the engineer students at California State University, Fullerton",
 };
 
 export default function RootLayout({
