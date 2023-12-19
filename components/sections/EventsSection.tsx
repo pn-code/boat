@@ -39,7 +39,7 @@ export default function EventsSection() {
 
         <AnimateOnScrollContainer>
           <div className="flex flex-col text-center items-center">
-            <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
+            <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[500px]">
               <Image
                 className="object-contain"
                 fill
@@ -75,7 +75,7 @@ export default function EventsSection() {
 
         <AnimateOnScrollContainer>
           <div className="flex flex-col text-center items-center">
-            <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[600px]">
+            <div className="relative w-full h-[300px] lg:w-[900px] lg:h-[530px]">
               <Image
                 className="object-contain"
                 fill
