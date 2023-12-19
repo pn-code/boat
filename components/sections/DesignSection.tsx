@@ -330,9 +330,9 @@ export default function DesignSection() {
                       <span className="font-semibold tracking-tight text-blue-400">
                         Safety Measures:{" "}
                       </span>
-                      Include automatic shut-off in the event of malfunctions or
-                      low hydrogen levels, are integrated to ensure a secure and
-                      reliable operation.
+                      Integrate an automatic shut-off mechanism to ensure secure and
+                      reliable operation, in the event of malfunctions or
+                      low hydrogen levels.
                     </p>
                   </li>
                 </ul>
