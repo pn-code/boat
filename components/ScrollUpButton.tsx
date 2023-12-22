@@ -3,15 +3,14 @@ import { ChevronsUp } from "lucide-react";
 
 export default function ScrollUpButton() {
   return (
-    <div className="w-full flex justify-center lg:pt-12 pb-4 bg-[#01142b]">
-      <div className="flex flex-col items-center gap-4">
+    <div className="hidden md:flex fixed right-0 bottom-0 p-2 md:m-2">
+      <div className="flex items-end gap-4 group">
         <a
-          className="p-4 bg-slate-200 rounded-full hover:bg-blue-300/80 duration-100 ease-in"
+          className="p-2 bg-slate-200 group rounded-md hover:bg-blue-900/60 hover:-translate-y-0.5 duration-150 ease-in border-slate-400 border-2"
           href="#main"
         >
-          <ChevronsUp />
+          <ChevronsUp className="group-hover:text-slate-200"/>
         </a>
-        <span className="text-xs text-slate-100">Return to the Top</span>
       </div>
     </div>
   );
