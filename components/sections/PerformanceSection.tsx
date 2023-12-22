@@ -5,7 +5,7 @@ export default function PerformanceSection() {
   return (
     <div
       id="performance"
-      className="py-[60px] lg:py-[120px] bg-blue-600 text-white"
+      className="py-[60px] lg:py-[120px] bg-[#155283] text-white"
     >
       <AnimateOnScrollContainer>
         <header className="text-center">
