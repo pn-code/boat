@@ -13,7 +13,7 @@ export default function HeroSection() {
           </AnimateOnScrollContainer>
           <AnimateOnScrollContainer>
             <h1 className="text-center text-4xl md:text-6xl font-bold tracking-tight text-white my-0 py-0">
-              The Hydrogen-Based Boat
+              The Hydrogen Powered Boat
             </h1>
           </AnimateOnScrollContainer>
           <AnimateOnScrollContainer>
